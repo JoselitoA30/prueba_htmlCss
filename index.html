@@ -21,16 +21,46 @@
     <link href="style.css" rel="stylesheet" />
     <script defer src="site.js"></script>
   </head>
+
   <body>
-    <img src="img/logo.png">
-    Dogos
-    {navlinks}
-    <h1>{title}</h1>
-    {content1}
-    <a href="#"><img src="img/paw.png">Learn more</a>
-    {content2}
-    <a href="#"><img src="img/paw.png">Learn more</a>
-    {content3}
-    <a href="#"><img src="img/paw.png">Learn more</a>
+    <header>
+      <div class="container">
+        <h1 class="logo">
+          <img src="img/logo.png">
+          Dogos
+        </h1>
+        <nav>
+          {navlinks}
+        </nav>
+      </div>
+    </header>
+  
+    <Main class="container">
+      <h1>{title}</h1>
+
+      <section class="cajas">
+        <article>
+          <div>
+            {content1}
+          </div>
+          <a href="#"><img src="img/paw.png">Learn more</a>
+        </article>
+  
+        <article>
+          <div>
+            {content2}
+          </div>
+          <a href="#"><img src="img/paw.png">Learn more</a>
+        </article>
+  
+        <article>
+          <div>
+            {content3}
+          </div>
+          <a href="#"><img src="img/paw.png">Learn more</a>
+        </article>
+      </section>
+    </Main>
   </body>
-</html>
+  
+  </html>

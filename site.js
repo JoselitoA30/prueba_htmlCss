@@ -28,6 +28,8 @@ Welsh Corgi.
 Overall the Cardigan is larger, both in weight and in height.
 Their tails are of different shapes.
 </p>`;
+
+
 content.content3 = `<h2>Mongrel</h2>
 <p>
 A mongrel, mutt or mixed-breed dog is a dog that does not belong to one
